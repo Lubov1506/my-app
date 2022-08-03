@@ -14,7 +14,7 @@ class Greeting extends Component {
     })
   }
   render () {
-    const { name, photo } = this.props
+    const { name } = this.props
     const { isGreeting } = this.state
     return (
       <>

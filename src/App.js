@@ -1,9 +1,9 @@
 import './App.css'
 import React from 'react'
-import AlohaDashboard from './components/AlohaDashboard'
+import WorkerTable from './components/WorkersTable'
 
 function App () {
-    return <AlohaDashboard/>
+    return <WorkerTable/>
   }
 
 

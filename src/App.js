@@ -1,9 +1,10 @@
 import './App.css'
 import React from 'react'
-import WorkerTable from './components/WorkersTable'
+//import WorkerTable from './components/WorkersTable'
+import Scene from './components/Scene'
 
 function App () {
-    return <WorkerTable/>
+    return <Scene/>
   }
 
 

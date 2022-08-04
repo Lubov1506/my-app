@@ -13,6 +13,10 @@ class Greeting extends Component {
       isGreeting: !this.state.isGreeting
     })
   }
+  deleteHandler = () =>{
+    const {callbackDelete, id} = this.props
+    callbackDelete(id)
+  }
   render () {
     const { name } = this.props
     const { isGreeting } = this.state
@@ -20,7 +24,7 @@ class Greeting extends Component {
       <>
         <h1>
           {isGreeting ? 'Hello' : 'GoodBye'}, {name}!
-        </h1>
+        </h1><button onClick={this.deleteHandler}>X</button>
         <button onClick={this.greetingToggle}>Toggle</button>
       </>
     )

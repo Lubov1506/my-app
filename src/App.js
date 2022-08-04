@@ -1,10 +1,8 @@
 import './App.css'
 import React from 'react'
-//import WorkerTable from './components/WorkersTable'
-import Scene from './components/Scene'
-
+import AlohaDashboard from './components/AlohaDashboard'
 function App () {
-    return <Scene/>
+    return <AlohaDashboard/>
   }
 
 

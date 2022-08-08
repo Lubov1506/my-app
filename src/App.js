@@ -1,8 +1,9 @@
 import './App.css'
 import React from 'react'
-import AlohaDashboard from './components/AlohaDashboard'
+import UserList from './components/UserList'
+
 function App () {
-    return <AlohaDashboard/>
+    return <UserList/>
   }
 
 
